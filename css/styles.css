@@ -1,0 +1,755 @@
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 9.5px;
+    font-size: 20px;
+}
+
+strong {
+    text-transform: uppercase;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#letter-spacing {
+    letter-spacing: 9.5px;
+}
+
+
+/** Navigation Bar **/
+
+#navbar {
+    background-color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 9.5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.navbar-header button {
+    background-color: #173997;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #08ACF9;
+    outline: 0
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 5px;
+    color: #fff;
+    background-color: #173997
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #173997
+}
+
+#nav-brand {
+    margin-top: 0;
+    color: #173997;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #08ACF9;
+}
+
+
+/** Header **/
+
+#header {
+    margin-top: 57px;
+}
+
+#header-img {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#main-img {
+    width: 1920px;
+}
+
+
+/** Portfolio Modals **/
+
+.row {
+    width: 100%;
+    margin-left: 0px;
+}
+
+#portfolio-modals {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#modal {
+    border-radius: 0;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(-100px);
+    -ms-transform: translatey(-100px);
+    transform: translatey(-100px);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    padding: 10px;
+}
+
+.hovereffect a.info {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 50px 0 0;
+    padding: 7px 14px;
+}
+
+.hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.hovereffect:hover h2,
+.hovereffect:hover a.info {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -ms-transform: translatey(0);
+    -webkit-transform: translatey(0);
+    transform: translatey(0);
+}
+
+.hovereffect:hover a.info {
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s;
+}
+
+
+/** Invest Section **/
+
+#invest1 {
+    background-color: black;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#invest1-hr {
+    width: 60%;
+}
+
+#invest2-title {
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#invest2-strong {
+    letter-spacing: 9.5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#invest2-list {
+    margin-bottom: 0px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+#invest2-img1 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#invest2-img2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#invest2-img3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#invest3 {
+    background-color: #000;
+}
+
+#invest3-img {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#invest3-content {
+    background-color: #000;
+    color: #fff;
+    padding-top: 80px;
+    padding-left: 49px;
+    padding-right: 30px;
+    padding-bottom: 78px;
+}
+
+#invest3-tagline {
+    padding-bottom: 20px;
+}
+
+#invest3-content1 {
+    text-transform: uppercase;
+    letter-spacing: 9.5px;
+    padding-bottom: 20px;
+}
+
+#invest3-content2 {
+    text-transform: uppercase;
+    letter-spacing: 9.5px;
+}
+
+#logo-section1 {
+    background-color: #F7F7F7;
+    padding-top: 50px;
+}
+
+#logo-section2 {
+    background-color: #F7F7F7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#race-logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#golf-logo {
+    padding-bottom: 10px;
+}
+
+#motor-club-logo {
+    padding-bottom: 10px;
+}
+
+#teebox-logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#voltnbolt-logo {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+}
+
+#care-logo {
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+#letter-spacing {
+    letter-spacing: 5px;
+}
+
+
+/** Map Section **/
+
+#map-section {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/** Forum Section **/
+
+#forum-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#forum-section-logo {
+    margin-left: 100px;
+}
+
+#forum-section-title {
+    padding-top: 20px;
+}
+
+#forum-section-content {
+    padding-top: 10px;
+    padding-left: 225px;
+}
+
+#forum-section-button {
+    padding-top: 30px;
+    padding-left: 235px;
+}
+
+#forum-section-button1 {
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 9.5px;
+    display: inline-block;
+}
+
+#forum-section-button1:link,
+#forum-section-button1:visited {
+    background-color: #fff;
+    color: #000;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#forum-section-button1:hover,
+#forum-section-button1:active {
+    background-color: #173997;
+    color: #fff;
+}
+
+
+/** Contact Section **/
+
+#contact {
+    background-color: #F7F7F7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section#contact .form-group {
+    margin-bottom: 25px
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px
+}
+
+section#contact .form-group input.form-control {
+    height: auto
+}
+
+section#contact .form-group textarea.form-control {
+    height: 236px
+}
+
+section#contact .form-control:focus {
+    border-color: #000;
+    box-shadow: none
+}
+
+section#contact::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+
+section#contact:-moz-placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+
+section#contact::-moz-placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+
+section#contact:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+
+section#contact .text-danger {
+    color: #e74c3c
+}
+
+#contact-button {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 9.5px;
+    display: inline-block;
+}
+
+#contact-button:hover,
+#contact-button:active {
+    background-color: #173997;
+    color: #fff;
+}
+
+
+/** Footer Section **/
+
+#footer-section {
+    background-color: #000;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#footer-section-icons {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+#footer-section-icons {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#facebook-icon {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#twitter-icon {
+    padding-left: .5px;
+    padding-right: .5px;
+}
+
+#pinterest-icon {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+
+#linkedin-icon {
+    padding-left: .5px;
+    padding-right: .5px;
+}
+
+#instagram-icon {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+#google-icon {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+#app-store {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#app-store-icon {
+    margin-left: -1px;
+    margin-right: -1px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#footer-section-icons a:link,
+#footer-section-icons a:visited {
+    background-color: #fff;
+    color: #000;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#footer-section-icons a:hover,
+#footer-section-icons a:active {
+    background-color: #173997;
+    color: #fff;
+}
+
+#footer-section-hr {
+    width: 70%;
+}
+
+
+/********** Extra Large devices only **********/
+
+@media screen and (min-width: 1900px) {
+    #invest2-title {
+        font-size: 2em;
+        padding-top: 90px;
+        padding-left: 40px;
+    }
+    #invest2-list {
+        font-size: 1.5em;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (min-width: 1600px)and (max-width: 1899px) {
+    #invest2-title {
+        font-size: 1.5em;
+        padding-top: 90px;
+        padding-left: 40px;
+    }
+    #invest2-list {
+        font-size: 1.25em;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (min-width: 1440px)and (max-width: 1599px) {
+    #invest2-title {
+        padding-top: 80px;
+        padding-left: 40px;
+    }
+    #invest2-list {
+        padding-right: 40px;
+    }
+}
+
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px)and (max-width: 1439px) {
+    #invest2-title {
+        padding-top: 60px;
+        padding-left: 40px;
+    }
+    #invest2-list {
+        padding-right: 40px;
+    }
+}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /** Navigation Bar **/
+    #navbar {
+        background-color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        font-size: 10px
+    }
+    #invest2-title {
+        margin-top: 20px;
+        padding-top: 0px;
+        padding-left: 20px;
+    }
+    #invest2-list {
+        margin-bottom: 5px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #invest3-content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #forum-section-title {
+        padding-top: 20px;
+        padding-left: 55px;
+    }
+}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /** Navigation Bar **/
+    #navbar {
+        background-color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+    #invest2-img {
+        padding-left: 0;
+    }
+    #invest2-img1 .hovereffect .img-responsive {
+        width: 100%;
+    }
+    #forum-section-logo {
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+    }
+    #forum-section-title {
+        padding: 0;
+        text-align: center;
+    }
+    #forum-section-content {
+        padding: 0;
+        text-align: center;
+    }
+    #forum-section-button {
+        padding: 0;
+        text-align: center;
+    }
+    #forum-section-button1 {
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding: 5px 5px 5px 5px;
+    }
+}
+
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+    #nav-brand {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    #modal .img-responsive {
+        width: 100%;
+    }
+    #invest2-img1 .hovereffect .img-responsive {
+        width: 100%;
+    }
+    #forum-section-logo {
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+    }
+    #forum-section-title {
+        padding: 0;
+        text-align: center;
+    }
+    #forum-section-content {
+        padding: 0;
+        text-align: center;
+    }
+    #forum-section-button {
+        padding: 0;
+        text-align: center;
+        font-size: 12px;
+    }
+    #forum-section-button1 {
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding: 5px 5px 5px 5px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (max-width: 479px) {
+    #nav-brand {
+        font-size: 10px;
+    }
+    #invest2-strong{
+     letter-spacing: 3px;   
+    }
+    #invest2-img {
+        padding-left: 0;
+    }
+    #invest2-img1 .hovereffect .img-responsive {
+        width: 100%;
+    }
+    #forum-section-logo {
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+    }
+    #forum-section-title {
+        padding: 0;
+        text-align: center;
+    }
+    #forum-section-content {
+        padding: 0;
+        text-align: center;
+    }
+    #forum-section-button {
+        padding: 0;
+        text-align: center;
+        font-size: 6px;
+    }
+    #forum-section-button1 {
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding: 5px 5px 5px 5px;
+    }
+    .embed-responsive-item {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+}
